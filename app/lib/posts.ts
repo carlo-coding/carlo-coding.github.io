@@ -85,6 +85,6 @@ export function formatDate(iso: string) {
   const d = new Date(`${iso}T12:00:00`);
   if (Number.isNaN(d.getTime())) return iso;
   return d
-    .toLocaleDateString("es", { day: "2-digit", month: "short", year: "numeric" })
+    .toLocaleDateString("en-US", { day: "2-digit", month: "short", year: "numeric" })
     .replace(/\./g, "");
 }

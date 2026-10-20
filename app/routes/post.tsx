@@ -22,7 +22,7 @@ export default function Post({ loaderData }: Route.ComponentProps) {
   return (
     <article>
       <p className="text-sm">
-        <Link to="/" className="scribble">← volver</Link>
+        <Link to="/" className="scribble">← back</Link>
       </p>
       <h2 className="mt-8 text-2xl font-bold tracking-tight sm:text-3xl">{post.title}</h2>
       <p className="mt-2 text-xs text-[var(--ink-soft)]">

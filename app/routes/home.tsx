@@ -18,7 +18,7 @@ export default function Home({ loaderData }: Route.ComponentProps) {
   const { posts } = loaderData;
   return (
     <section aria-labelledby="posts">
-      <h2 id="posts" className="label mb-6">Posts recientes</h2>
+      <h2 id="posts" className="label mb-6">Recent posts</h2>
       <ul>
         {posts.map((p, i) => (
           <li key={p.slug} className="border-b border-dashed border-[var(--graphite)] last:border-0">
