@@ -1,6 +1,6 @@
 export const site = {
   name: "Jaan Carlo",
-  tagline: "Here I document my projects on my learning journey.",
+  tagline: "Building small models from scratch, evals, and RL environments. Aiming for remote post-training / inference work.",
   socials: [
     { label: "twitter", href: "https://x.com/JaanCarloRT" },
     { label: "linkedin", href: "https://www.linkedin.com/in/jaan-carlo" },
